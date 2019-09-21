@@ -1,19 +1,17 @@
 # React Netflix
 
-## Screens
+## Home
 
-- [ ] Home
-- [ ] TV Shows
-- [ ] Search
-- [ ] Detail
+![1](./assets/1.png)
 
-## API Verbs
+## TV Shows
 
-- [x] Now playing (Movie)
-- [x] Upcoming (Movie)
-- [x] Top Rated(TV)
-- [x] Popular (TV, Movie)
-- [x] Airing Today (TV)
-- [x] TV Show Detail
-- [x] Movie Detail
-- [x] Search (Movie, TV)
+![2](./assets/2.png)
+
+## Search
+
+![3](./assets/3.png)
+
+## Detail
+
+![4](./assets/4.png)

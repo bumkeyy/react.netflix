@@ -30,7 +30,7 @@ const ImageContainer = styled.div`
       opacity: 0.3;
     }
     ${Rating} {
-      opcaity: 1;
+      opacity: 1;
     }
   }
 `;
@@ -49,7 +49,13 @@ const Poster = ({ id, imgUrl, title, rating, year, isMovie = false }) => (
   <Link to={isMovie ? `/movie/${id}` : `/tv/${id}`}>
     <Container>
       <ImageContainer>
-        <Image bgUrl={`https://image.tmdb.org/t/p/w300/${imgUrl}`} />
+        <Image
+          bgUrl={
+            imgUrl
+              ? `https://image.tmdb.org/t/p/w300/${imgUrl}`
+              : require('../assets/db.png')
+          }
+        />
         <Rating>
           <span role='img' aria-label='rating'>
             ⭐️

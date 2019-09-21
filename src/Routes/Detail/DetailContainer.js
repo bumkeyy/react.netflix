@@ -23,13 +23,14 @@ export default class extends React.Component {
       },
       history: { push }
     } = this.props;
+    const { isMovie } = this.state;
     const parsedId = parseInt(id);
     if (isNaN(parsedId)) {
       return push('/');
     }
     let result = null;
     try {
-      if (this.isMovie) {
+      if (isMovie) {
         ({ data: result } = await movieApi.movieDetail(parsedId));
       } else {
         ({ data: result } = await tvApi.tvDetail(parsedId));

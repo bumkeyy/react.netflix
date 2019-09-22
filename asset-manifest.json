@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/react.hooks/static/js/main.f3e196d8.chunk.js",
-    "main.js.map": "/react.hooks/static/js/main.f3e196d8.chunk.js.map",
-    "runtime~main.js": "/react.hooks/static/js/runtime~main.9def367c.js",
-    "runtime~main.js.map": "/react.hooks/static/js/runtime~main.9def367c.js.map",
-    "static/js/2.0769b850.chunk.js": "/react.hooks/static/js/2.0769b850.chunk.js",
-    "static/js/2.0769b850.chunk.js.map": "/react.hooks/static/js/2.0769b850.chunk.js.map",
-    "index.html": "/react.hooks/index.html",
-    "precache-manifest.b3e76e2894efd8d7740fc3bb7e4a6bd0.js": "/react.hooks/precache-manifest.b3e76e2894efd8d7740fc3bb7e4a6bd0.js",
-    "service-worker.js": "/react.hooks/service-worker.js"
+    "main.js": "/react.netflix/static/js/main.f3e196d8.chunk.js",
+    "main.js.map": "/react.netflix/static/js/main.f3e196d8.chunk.js.map",
+    "runtime~main.js": "/react.netflix/static/js/runtime~main.b4a87cd8.js",
+    "runtime~main.js.map": "/react.netflix/static/js/runtime~main.b4a87cd8.js.map",
+    "static/js/2.fd30586c.chunk.js": "/react.netflix/static/js/2.fd30586c.chunk.js",
+    "static/js/2.fd30586c.chunk.js.map": "/react.netflix/static/js/2.fd30586c.chunk.js.map",
+    "index.html": "/react.netflix/index.html",
+    "precache-manifest.b8739eb9c71bd628b8fc2102dbfc9c9c.js": "/react.netflix/precache-manifest.b8739eb9c71bd628b8fc2102dbfc9c9c.js",
+    "service-worker.js": "/react.netflix/service-worker.js"
   }
 }
